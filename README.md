@@ -70,8 +70,8 @@ Replace the placeholder values with your Twitter API credentials from the Develo
 # Create bin directory if it doesn't exist
 mkdir -p ~/bin
 
-# Create symbolic links
-ln -s "/path/to/your/tweet_wrapper.sh" ~/bin/tweet
+# Create symbolic link (replace with your actual path)
+ln -s "$(pwd)/tweet_wrapper.sh" ~/bin/tweet
 
 # Make scripts executable
 chmod +x tweet_wrapper.sh

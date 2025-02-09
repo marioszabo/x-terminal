@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the directory where the script is located
-SCRIPT_DIR="/Users/mario/Documents/Programming/projects/tweet"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Activate virtual environment
 source "$SCRIPT_DIR/venv/bin/activate"
