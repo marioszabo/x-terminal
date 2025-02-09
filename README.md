@@ -116,4 +116,11 @@ The script will show clear error messages for:
 3. **Module not found**: Ensure you're in the virtual environment
 4. **Permission denied**: Check file permissions for the scripts
 
-=
+## Free Tier Limitations
+The free Twitter API tier has strict limits:
+- Maximum 17 tweets per 24 hours
+- Shared limits across all users of your app
+- Rate limits reset at midnight UTC
+- Concurrent requests are not allowed
+
+Consider upgrading to Basic or Pro tier if you need more capacity.
