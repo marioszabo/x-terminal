@@ -108,22 +108,6 @@ The script will show clear error messages for:
 - Messages exceeding 280 characters
 - API errors
 
-## File Structure
-
-```
-.
-├── README.md
-├── tweet.py              # Main Python script
-├── tweet_wrapper.sh      # Shell wrapper script
-├── .env                 # Environment variables (not tracked in git)
-└── .gitignore           # Git ignore file
-```
-
-## Security Notes
-
-- Never commit your `.env` file to version control
-- Keep your API keys and tokens secure
-- Regenerate tokens if they're ever exposed
 
 ## Troubleshooting
 
@@ -132,13 +116,4 @@ The script will show clear error messages for:
 3. **Module not found**: Ensure you're in the virtual environment
 4. **Permission denied**: Check file permissions for the scripts
 
-## Contributing
-
-Feel free to:
-- Report issues
-- Submit pull requests
-- Suggest improvements
-
-## License
-
-MIT License - feel free to use and modify as you like! # x-terminal
+=
